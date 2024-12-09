@@ -20,10 +20,14 @@ Skills
 •	Databases: PostgreSQL
 •	Tools: Jupyter Notebook, Git, GitHub, RMarkdown
 Projects
+
 1.	Predicting Customer Churn
+2.	
 o	Description: Developed a logistic regression model to predict which customers would churn from a telecommunications company.
+
 o	Technologies Used: R 
-o	Repository Link <insert repository>
+
+o	Repository Link: See the project named Predictive Modeling with Neural Networkd.rmd to see the details of the project.
 Education
 •	[Your University]
 o	[Degree/Major]
