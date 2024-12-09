@@ -7,7 +7,7 @@ output:
   html_document: default
 ---
 
-This is a real-world project I have worked on for two months while in school. The problem in this data is ****. 
+This is a real-world project I have worked on for two months while in school. The problem in this data is I am tryting to help a retail store with its inventory by 
 
 
 ## Data Description
