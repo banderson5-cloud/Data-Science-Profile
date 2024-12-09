@@ -1,6 +1,8 @@
 
 ________________________________________
-Hi there! I'm [Your Name]
+Hi there! 
+I'm [Your Name]
+
 Data Analyst | Machine Learning Enthusiast 
 ________________________________________
 About Me
