@@ -19,7 +19,10 @@ Skills
 •	Data Visualization: Tableau
 •	Databases: PostgreSQL
 •	Tools: Jupyter Notebook, Git, GitHub, RMarkdown
+
 Projects
+Below is a project in which I [predicted customer churn using a neural network in R](Predictive Modeling Using Neural Networks.Rmd).
+
 
 1.	Predicting Customer Churn
 2.	
