@@ -1,0 +1,109 @@
+---
+title: "In-Class Lab Assignment 4 (CART (Classification and Regression Tree))"
+author: "insert student name"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+These exercises will re-enforce the concepts of the CART (Classifiction and Regression tree). You need to develop the code as we work through the exercise together in class. 
+
+
+## Data Description
+
+This lab assignment is going to use the car_seat_sales.csv file that is the data folder of this environment.
+
+A description of the variables are provided below:
+
+Store - a unique number that identifies each store (will not be used as a feature in the model).
+
+CompPrice - price charged by a local competitor
+
+Income - average annual income of the individuals who live within driving proximity to the store (in thousands of dollars)
+
+Advertising - the store's advertising budget (in thousands of dollars)
+
+Population - the size of the local population who live within driving proximity to the store (in thousands)
+
+Price - the store's price of the car seat
+
+ShelfLoc - the quality of the shelf location of the car seat in the store (Good, Medium, Bad)
+
+Age - average age of the local population who live within driving proximity to the store (in years)
+
+Education - average number of years of education for the local population who live within driving proximity to the store (in years)
+
+Urban - whether or not the store is in an urban location (Yes or No)
+
+US - whether the store is in the US or not (Yes or No)
+
+Sales - number of car seats sold (measured in 100s)
+
+## Import the Data
+
+Create a data frame name car_seat_sales from the .csv file that is in the data folder.
+
+```{r}
+
+#delete this and insert your code here
+```
+
+# Build a CART Model Using 5-fold Cross Validation
+
+You want to build a model to predict car seat sales (Sales) using all the features except Store. Store is a unique identifier for each store and should not be considered a feature. Sales is the target variable.
+
+```{r}
+library(caret)
+library(rpart)
+library(rpart.plot)
+
+
+#specify the cross validation method
+#delete this and insert your code here
+
+#build a CART model and use k-fold CV to evaluate performance
+#delete this and insert your code here
+
+
+#look at the results of the tree
+#delete this and insert your code here
+
+#visualize the tree
+#delete this and insert your code here
+
+
+```
+
+The tuneLength argument in the train() function is a **_hyperparameter_** in a decison tree. A **_hyperparameter_** in machine learning is a value (a parameter) of the model that is not estimated with the data, but rather, you, the analyst have to set the value.
+
+A **_hyperparameter_** in a decison tree is a value known as cp, which stands for cost complexity. It is the hyperparameter that helps me prune the tree (remeber, pruning means removing branches from the tree so that the tree does not overfit the data). That is, which tree is the tree that will generalize well to new data?
+
+cp is essentially asking the question: if I add another branch in the tree, that is if the model becomes more complex, what does it 'cost' in terms of RMSE? Remember, RMSE is how we determine how accurate the model is.
+
+How do you know which cp value to choose? Build many trees with different cp values and select the tree with the smallest RMSE on the validation data.
+
+# Let's Predict
+
+We have built a regression tree (CART). Let's apply the model to the new data the model has never seen. That is, let's predict some new observations.
+
+```{r}
+
+#import the new data
+#delete this and insert your code here
+
+#apply the CART model to the new data
+#delete this and insert your code here
+
+#view the predictions
+#delete this and insert your code here
+
+
+```
+ 
+
+
+
+
+
+
+
+
