@@ -21,7 +21,7 @@ Skills
 •	Tools: Jupyter Notebook, Git, GitHub, RMarkdown
 
 Projects
-Below is a project in which I [predicted customer churn using a neural network in R](Predictive Modeling Using Neural Networks.Rmd).
+Below is a project in which I [predicted customer churn using a neural network in R]
 
 
 1.	Predicting Customer Churn
